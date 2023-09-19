@@ -1,0 +1,54 @@
+input{
+    height: 40px;
+    width: 70%;
+    border-radius: 5px;
+    padding: 4px;
+    font-family: Inter;
+font-size: 15px;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0.125em;
+text-align: left;
+}
+.exp{
+    height: 40px;
+    width: 20%;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 4px;
+    font-family: Inter;
+font-size: 15px;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0.125em;
+text-align: left;
+}
+.exp-cvc{
+    display: flex;
+}
+label{
+    font-family: Roboto;
+font-size: 12px;
+font-weight: 700;
+line-height: 14px;
+letter-spacing: 0.155em;
+text-align: left;
+color: #404040;
+}
+.error{
+    color: red;
+    padding: 10px;
+}
+button{
+    height: 50px;
+    width: 72%;
+    background-color: #220930;
+    color: white;
+    border-radius: 1px;
+}
+span{
+    color: red;
+}
+.dateandcvc{
+    display: flex;
+}
