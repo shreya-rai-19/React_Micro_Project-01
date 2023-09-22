@@ -1,54 +1,98 @@
-input{
-    height: 40px;
-    width: 70%;
-    border-radius: 5px;
-    padding: 4px;
-    font-family: Inter;
-font-size: 15px;
-font-weight: 600;
-line-height: 18px;
-letter-spacing: 0.125em;
-text-align: left;
+.form-card{
+  width: 700px;
+  height: 300px;
+  position: relative;
+margin-left: 150px;
 }
-.exp{
-    height: 40px;
-    width: 20%;
-    margin: 10px;
-    border-radius: 5px;
-    padding: 4px;
-    font-family: Inter;
-font-size: 15px;
-font-weight: 600;
-line-height: 18px;
-letter-spacing: 0.125em;
-text-align: left;
+input {
+  padding-left: 14px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  height: 40px;
+  width: 60%;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.125em;
+  text-align: left;
+  margin-top: 10px;
+  border-radius: 6px;
+border: 1px solid rgba(0, 0, 0, 0.13);
+background: #FFF;
 }
-.exp-cvc{
-    display: flex;
+label {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0.155em;
+  text-align: left;
+  color: #404040;
 }
-label{
-    font-family: Roboto;
+.error {
+  color: red;
+  padding: 6px;
+}
+button {
+  height: 50px;
+  width: 62%;
+  background-color: #220930;
+  border-radius: 6px; 
+  color: #FFF;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.16px;
+border: none;
+cursor: pointer;
+transition: background-color 0.3s ease;
+&:hover{
+  background-color: #882fb8;
+  background: linear-gradient(#220930, #882fb8);
+}
+}
+button:hover(){
+  border-color: 1px solid #FFF;
+
+}
+span {
+  color: #F81212;
+font-family: Inter;
 font-size: 12px;
-font-weight: 700;
-line-height: 14px;
-letter-spacing: 0.155em;
-text-align: left;
-color: #404040;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+padding-bottom: -200px;
 }
-.error{
-    color: red;
-    padding: 10px;
+.exp {
+  height: 40px;
+  width: 16%;
+  border-radius: 5px;
+  padding-left: 12px;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.125em;
+  text-align: left;
 }
-button{
-    height: 50px;
-    width: 72%;
-    background-color: #220930;
-    color: white;
-    border-radius: 1px;
+.month{
+  margin-right: 10px;
 }
-span{
-    color: red;
+.cv{
+  position: relative;
+  width: fit-content;
+  width: 216px;
+  padding: 4px;
+  padding-left: 12px;
 }
-.dateandcvc{
-    display: flex;
+.exp-cvc {
+  display: flex;
+  flex-direction: row;
+}
+.cvcno{
+  margin-left: -203px;
 }

@@ -1,0 +1,20 @@
+.back-card {
+  position: relative;
+  width: 400px;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  background-image: url(./images/Card_B.jpg);
+  background-size: cover;
+}
+.cvc {
+  padding-top: 113px;
+  padding-left: 310px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 4px;
+}

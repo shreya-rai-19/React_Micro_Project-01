@@ -3,11 +3,28 @@
     margin: 0px;
 }
 .main{
+    height: 100%;
+    width: 100%;
+}
+.card{
+    background-image: url(./images/purple_rectangle.png);
+    background-size: cover;
     height: 100vh;
-    display: flex;
+    width: 30vw;
+    z-index: 1;
 }
-.left-section{
-    width: 60vh;
-    /* height: 100vh; */
+.frontCard{
+    position: absolute;
+    margin-top: 6em;
+    margin-left: 14em;
 }
-
+.backCard{
+    position: absolute;
+    margin-top: 25em;
+    margin-left: 20em;
+}
+.formCard{
+    position: absolute;
+    margin-top: -34em;
+    margin-left: 40em;
+}
