@@ -32,7 +32,8 @@
   line-height: normal;
   letter-spacing: 2.47px;
 }
-.valid-thru, .valid-month,
+.valid-thru,
+.valid-month,
 .valid-year {
   color: #fff;
   font-family: Roboto;
@@ -42,6 +43,6 @@
   line-height: normal;
   letter-spacing: 3.29px;
 }
-.valid-month{
+.valid-month {
   padding-left: 7em;
 }

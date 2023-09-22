@@ -1,8 +1,8 @@
-.form-card{
+.form-card {
   width: 700px;
   height: 300px;
   position: relative;
-margin-left: 150px;
+  margin-left: 150px;
 }
 input {
   padding-left: 14px;
@@ -18,8 +18,8 @@ input {
   text-align: left;
   margin-top: 10px;
   border-radius: 6px;
-border: 1px solid rgba(0, 0, 0, 0.13);
-background: #FFF;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  background: #fff;
 }
 label {
   font-family: Roboto;
@@ -34,38 +34,35 @@ label {
   color: red;
   padding: 6px;
 }
-button {
+.btn {
   height: 50px;
   width: 62%;
   background-color: #220930;
-  border-radius: 6px; 
-  color: #FFF;
-font-family: Inter;
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.16px;
-border: none;
-cursor: pointer;
-transition: background-color 0.3s ease;
-&:hover{
-  background-color: #882fb8;
-  background: linear-gradient(#220930, #882fb8);
+  border-radius: 6px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  &:hover {
+    background-color: #882fb8;
+    background: linear-gradient(#220930, #882fb8);
+  }
 }
-}
-button:hover(){
-  border-color: 1px solid #FFF;
 
-}
 span {
-  color: #F81212;
-font-family: Inter;
-font-size: 12px;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
-padding-bottom: -200px;
+  color: #f81212;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding-bottom: -200px;
 }
 .exp {
   height: 40px;
@@ -79,10 +76,10 @@ padding-bottom: -200px;
   letter-spacing: 0.125em;
   text-align: left;
 }
-.month{
+.month {
   margin-right: 10px;
 }
-.cv{
+.cv {
   position: relative;
   width: fit-content;
   width: 216px;
@@ -93,6 +90,6 @@ padding-bottom: -200px;
   display: flex;
   flex-direction: row;
 }
-.cvcno{
+.cvcno {
   margin-left: -203px;
 }

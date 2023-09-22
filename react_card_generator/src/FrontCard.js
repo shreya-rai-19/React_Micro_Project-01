@@ -9,10 +9,9 @@ const FrontCard = ({ cardholder, cardNumber, expMonth, expYear }) => {
 
         <div className="card-info">
           <span className="cardholder">{cardholder || "JANE APPLESEED"}</span>
-          <span className="valid-month">{expMonth || "00"} /{" "}</span>
+          <span className="valid-month">{expMonth || "00"} / </span>
           <span className="valid-year">{expYear || "00"}</span>
         </div>
-
       </div>
     </div>
   );
